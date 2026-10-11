@@ -17,4 +17,4 @@ Each app has its own folder with the two pages App Store Connect needs:
 
 ## Keeping the privacy policy true
 
-Update `privacy/index.html`, with a new date, before releasing any version that sends a new kind of data off the phone. At most two things leave it: barcode numbers (Open Food Facts) and, where the app's closer look is switched on, plate photos (Apple's Private Cloud Compute, which keeps nothing). In the app's builds so far the closer look is off.
+Update `privacy/index.html`, with a new date, before releasing any version that sends a new kind of data off the phone. Today only barcode numbers leave it (Open Food Facts); plate photos are estimated on the phone. A future optional closer look would send plate photos to Apple's Private Cloud Compute: update the policy before that version ships.
